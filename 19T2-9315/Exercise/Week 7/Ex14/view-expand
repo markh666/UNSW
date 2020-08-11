@@ -1,0 +1,19 @@
+Given the definitions:
+
+  create table R(a integer, b integer, c integer);
+
+  create view RR(f,g,h) as
+  select * from R where a > 5 and b = c;
+
+Show how the following might be mapped to RA:
+
+  select * from RR where f > 10;
+
+Answer:
+
+RR = Proj[a->f,b->g,c->h](Select[a>5 & b=c](R))
+
+Query
+= Select[f>10](RR)
+= Select[f>10](Proj[a->f,b->g,c->h](Select[a>5 & b=c](R)))
+= Proj[a->f,b->g,c->h](Select[a>10 & b=c](R))

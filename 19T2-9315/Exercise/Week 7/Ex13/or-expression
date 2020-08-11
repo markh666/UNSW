@@ -1,0 +1,25 @@
+Give mapping(s) to RA for
+
+  select * from R where Cond1 or Cond2
+
+Answer:
+
+Sel[Cond1 or Cond2]R
+
+Sel[Cond1]R U Sel[Cond2]R
+
+
+Give RA expression(s) corresponding to
+
+  select * from R where (a=1 or a=3) and b < c
+
+One obvious possibility:
+
+Sel[(a=1 or a=3) and b < c](R)
+
+Others:
+
+Sel[a=1 and b < c](R) U  Sel[a=3 and b < c](R)
+
+Tmp = Sel[b < c]R
+Res = Sel[a=1 or a=3]Tmp
