@@ -1,0 +1,68 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.2.7</VERSION>
+ <DEVICE>"ATmega2560"</DEVICE>
+ <WORKING_DIR>C:\Users\hanyu\Desktop\9032\9032 Final Project\Final Project\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc</DIR>
+  <DIR>C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\hanyu\Desktop\9032\9032 Final Project\Final Project\main.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\m2560def.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\hanyu\Desktop\9032\9032 Final Project\Final Project\Debug\Final Project.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>Final Project.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>Final Project.map</FILE>
+  <FILE>Final Project.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <RESET><FILE>C:\Users\hanyu\Desktop\9032\9032 Final Project\Final Project\main.asm</FILE><LINE>66</LINE></RESET>
+  <EXT_INT0><FILE>C:\Users\hanyu\Desktop\9032\9032 Final Project\Final Project\main.asm</FILE><LINE>106</LINE></EXT_INT0>
+  <EXT_INT1><FILE>C:\Users\hanyu\Desktop\9032\9032 Final Project\Final Project\main.asm</FILE><LINE>137</LINE></EXT_INT1>
+  <Stage1><FILE>C:\Users\hanyu\Desktop\9032\9032 Final Project\Final Project\main.asm</FILE><LINE>165</LINE></Stage1>
+  <debounce0><FILE>C:\Users\hanyu\Desktop\9032\9032 Final Project\Final Project\main.asm</FILE><LINE>112</LINE></debounce0>
+  <delayloop><FILE>C:\Users\hanyu\Desktop\9032\9032 Final Project\Final Project\main.asm</FILE><LINE>115</LINE></delayloop>
+  <change><FILE>C:\Users\hanyu\Desktop\9032\9032 Final Project\Final Project\main.asm</FILE><LINE>132</LINE></change>
+  <continue><FILE>C:\Users\hanyu\Desktop\9032\9032 Final Project\Final Project\main.asm</FILE><LINE>125</LINE></continue>
+  <debounce1><FILE>C:\Users\hanyu\Desktop\9032\9032 Final Project\Final Project\main.asm</FILE><LINE>143</LINE></debounce1>
+  <delayloop1><FILE>C:\Users\hanyu\Desktop\9032\9032 Final Project\Final Project\main.asm</FILE><LINE>146</LINE></delayloop1>
+  <lcd_command><FILE>C:\Users\hanyu\Desktop\9032\9032 Final Project\Final Project\main.asm</FILE><LINE>451</LINE></lcd_command>
+  <lcd_wait><FILE>C:\Users\hanyu\Desktop\9032\9032 Final Project\Final Project\main.asm</FILE><LINE>469</LINE></lcd_wait>
+  <lcd_data><FILE>C:\Users\hanyu\Desktop\9032\9032 Final Project\Final Project\main.asm</FILE><LINE>459</LINE></lcd_data>
+  <led_loop><FILE>C:\Users\hanyu\Desktop\9032\9032 Final Project\Final Project\main.asm</FILE><LINE>191</LINE></led_loop>
+  <Stage2><FILE>C:\Users\hanyu\Desktop\9032\9032 Final Project\Final Project\main.asm</FILE><LINE>199</LINE></Stage2>
+  <shuffle_loop><FILE>C:\Users\hanyu\Desktop\9032\9032 Final Project\Final Project\main.asm</FILE><LINE>223</LINE></shuffle_loop>
+  <clear_cup><FILE>C:\Users\hanyu\Desktop\9032\9032 Final Project\Final Project\main.asm</FILE><LINE>241</LINE></clear_cup>
+  <Stage3><FILE>C:\Users\hanyu\Desktop\9032\9032 Final Project\Final Project\main.asm</FILE><LINE>248</LINE></Stage3>
+  <colloop><FILE>C:\Users\hanyu\Desktop\9032\9032 Final Project\Final Project\main.asm</FILE><LINE>260</LINE></colloop>
+  <delay><FILE>C:\Users\hanyu\Desktop\9032\9032 Final Project\Final Project\main.asm</FILE><LINE>266</LINE></delay>
+  <nextcol><FILE>C:\Users\hanyu\Desktop\9032\9032 Final Project\Final Project\main.asm</FILE><LINE>297</LINE></nextcol>
+  <rowloop><FILE>C:\Users\hanyu\Desktop\9032\9032 Final Project\Final Project\main.asm</FILE><LINE>281</LINE></rowloop>
+  <Stage4><FILE>C:\Users\hanyu\Desktop\9032\9032 Final Project\Final Project\main.asm</FILE><LINE>309</LINE></Stage4>
+  <checkresult><FILE>C:\Users\hanyu\Desktop\9032\9032 Final Project\Final Project\main.asm</FILE><LINE>315</LINE></checkresult>
+  <wrong><FILE>C:\Users\hanyu\Desktop\9032\9032 Final Project\Final Project\main.asm</FILE><LINE>344</LINE></wrong>
+  <flashing1><FILE>C:\Users\hanyu\Desktop\9032\9032 Final Project\Final Project\main.asm</FILE><LINE>349</LINE></flashing1>
+  <flashing2><FILE>C:\Users\hanyu\Desktop\9032\9032 Final Project\Final Project\main.asm</FILE><LINE>360</LINE></flashing2>
+  <flashing3><FILE>C:\Users\hanyu\Desktop\9032\9032 Final Project\Final Project\main.asm</FILE><LINE>371</LINE></flashing3>
+  <guesswrong><FILE>C:\Users\hanyu\Desktop\9032\9032 Final Project\Final Project\main.asm</FILE><LINE>387</LINE></guesswrong>
+  <End><FILE>C:\Users\hanyu\Desktop\9032\9032 Final Project\Final Project\main.asm</FILE><LINE>382</LINE></End>
+  <sleep_500ms><FILE>C:\Users\hanyu\Desktop\9032\9032 Final Project\Final Project\main.asm</FILE><LINE>531</LINE></sleep_500ms>
+  <zero><FILE>C:\Users\hanyu\Desktop\9032\9032 Final Project\Final Project\main.asm</FILE><LINE>415</LINE></zero>
+  <result1><FILE>C:\Users\hanyu\Desktop\9032\9032 Final Project\Final Project\main.asm</FILE><LINE>421</LINE></result1>
+  <result2><FILE>C:\Users\hanyu\Desktop\9032\9032 Final Project\Final Project\main.asm</FILE><LINE>428</LINE></result2>
+  <result3><FILE>C:\Users\hanyu\Desktop\9032\9032 Final Project\Final Project\main.asm</FILE><LINE>435</LINE></result3>
+  <Over><FILE>C:\Users\hanyu\Desktop\9032\9032 Final Project\Final Project\main.asm</FILE><LINE>442</LINE></Over>
+  <sleep_1ms><FILE>C:\Users\hanyu\Desktop\9032\9032 Final Project\Final Project\main.asm</FILE><LINE>496</LINE></sleep_1ms>
+  <lcd_wait_loop><FILE>C:\Users\hanyu\Desktop\9032\9032 Final Project\Final Project\main.asm</FILE><LINE>475</LINE></lcd_wait_loop>
+  <delayloop_1ms><FILE>C:\Users\hanyu\Desktop\9032\9032 Final Project\Final Project\main.asm</FILE><LINE>501</LINE></delayloop_1ms>
+  <sleep_5ms><FILE>C:\Users\hanyu\Desktop\9032\9032 Final Project\Final Project\main.asm</FILE><LINE>508</LINE></sleep_5ms>
+  <sleep_25ms><FILE>C:\Users\hanyu\Desktop\9032\9032 Final Project\Final Project\main.asm</FILE><LINE>516</LINE></sleep_25ms>
+  <sleep_100ms><FILE>C:\Users\hanyu\Desktop\9032\9032 Final Project\Final Project\main.asm</FILE><LINE>524</LINE></sleep_100ms>
+ </LABELS>
+</ASSEMBLER_INFO>

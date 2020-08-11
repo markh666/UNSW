@@ -1,0 +1,68 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.2.7</VERSION>
+ <DEVICE>"ATmega2560"</DEVICE>
+ <WORKING_DIR>C:\Users\hanyu\Desktop\9032 Final Project\9032 Final Project\Final Project\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc</DIR>
+  <DIR>C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\hanyu\Desktop\9032 Final Project\9032 Final Project\Final Project\main.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\m2560def.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\hanyu\Desktop\9032 Final Project\9032 Final Project\Final Project\Debug\Final Project.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>Final Project.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>Final Project.map</FILE>
+  <FILE>Final Project.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <RESET><FILE>C:\Users\hanyu\Desktop\9032 Final Project\9032 Final Project\Final Project\main.asm</FILE><LINE>68</LINE></RESET>
+  <EXT_INT0><FILE>C:\Users\hanyu\Desktop\9032 Final Project\9032 Final Project\Final Project\main.asm</FILE><LINE>108</LINE></EXT_INT0>
+  <EXT_INT1><FILE>C:\Users\hanyu\Desktop\9032 Final Project\9032 Final Project\Final Project\main.asm</FILE><LINE>139</LINE></EXT_INT1>
+  <Stage1><FILE>C:\Users\hanyu\Desktop\9032 Final Project\9032 Final Project\Final Project\main.asm</FILE><LINE>167</LINE></Stage1>
+  <debounce0><FILE>C:\Users\hanyu\Desktop\9032 Final Project\9032 Final Project\Final Project\main.asm</FILE><LINE>114</LINE></debounce0>
+  <delayloop><FILE>C:\Users\hanyu\Desktop\9032 Final Project\9032 Final Project\Final Project\main.asm</FILE><LINE>117</LINE></delayloop>
+  <change><FILE>C:\Users\hanyu\Desktop\9032 Final Project\9032 Final Project\Final Project\main.asm</FILE><LINE>134</LINE></change>
+  <continue><FILE>C:\Users\hanyu\Desktop\9032 Final Project\9032 Final Project\Final Project\main.asm</FILE><LINE>127</LINE></continue>
+  <debounce1><FILE>C:\Users\hanyu\Desktop\9032 Final Project\9032 Final Project\Final Project\main.asm</FILE><LINE>145</LINE></debounce1>
+  <delayloop1><FILE>C:\Users\hanyu\Desktop\9032 Final Project\9032 Final Project\Final Project\main.asm</FILE><LINE>148</LINE></delayloop1>
+  <lcd_command><FILE>C:\Users\hanyu\Desktop\9032 Final Project\9032 Final Project\Final Project\main.asm</FILE><LINE>453</LINE></lcd_command>
+  <lcd_wait><FILE>C:\Users\hanyu\Desktop\9032 Final Project\9032 Final Project\Final Project\main.asm</FILE><LINE>471</LINE></lcd_wait>
+  <lcd_data><FILE>C:\Users\hanyu\Desktop\9032 Final Project\9032 Final Project\Final Project\main.asm</FILE><LINE>461</LINE></lcd_data>
+  <led_loop><FILE>C:\Users\hanyu\Desktop\9032 Final Project\9032 Final Project\Final Project\main.asm</FILE><LINE>193</LINE></led_loop>
+  <Stage2><FILE>C:\Users\hanyu\Desktop\9032 Final Project\9032 Final Project\Final Project\main.asm</FILE><LINE>201</LINE></Stage2>
+  <shuffle_loop><FILE>C:\Users\hanyu\Desktop\9032 Final Project\9032 Final Project\Final Project\main.asm</FILE><LINE>225</LINE></shuffle_loop>
+  <clear_cup><FILE>C:\Users\hanyu\Desktop\9032 Final Project\9032 Final Project\Final Project\main.asm</FILE><LINE>243</LINE></clear_cup>
+  <Stage3><FILE>C:\Users\hanyu\Desktop\9032 Final Project\9032 Final Project\Final Project\main.asm</FILE><LINE>250</LINE></Stage3>
+  <colloop><FILE>C:\Users\hanyu\Desktop\9032 Final Project\9032 Final Project\Final Project\main.asm</FILE><LINE>262</LINE></colloop>
+  <delay><FILE>C:\Users\hanyu\Desktop\9032 Final Project\9032 Final Project\Final Project\main.asm</FILE><LINE>268</LINE></delay>
+  <nextcol><FILE>C:\Users\hanyu\Desktop\9032 Final Project\9032 Final Project\Final Project\main.asm</FILE><LINE>299</LINE></nextcol>
+  <rowloop><FILE>C:\Users\hanyu\Desktop\9032 Final Project\9032 Final Project\Final Project\main.asm</FILE><LINE>283</LINE></rowloop>
+  <Stage4><FILE>C:\Users\hanyu\Desktop\9032 Final Project\9032 Final Project\Final Project\main.asm</FILE><LINE>311</LINE></Stage4>
+  <checkresult><FILE>C:\Users\hanyu\Desktop\9032 Final Project\9032 Final Project\Final Project\main.asm</FILE><LINE>317</LINE></checkresult>
+  <wrong><FILE>C:\Users\hanyu\Desktop\9032 Final Project\9032 Final Project\Final Project\main.asm</FILE><LINE>346</LINE></wrong>
+  <flashing1><FILE>C:\Users\hanyu\Desktop\9032 Final Project\9032 Final Project\Final Project\main.asm</FILE><LINE>351</LINE></flashing1>
+  <flashing2><FILE>C:\Users\hanyu\Desktop\9032 Final Project\9032 Final Project\Final Project\main.asm</FILE><LINE>362</LINE></flashing2>
+  <flashing3><FILE>C:\Users\hanyu\Desktop\9032 Final Project\9032 Final Project\Final Project\main.asm</FILE><LINE>373</LINE></flashing3>
+  <guesswrong><FILE>C:\Users\hanyu\Desktop\9032 Final Project\9032 Final Project\Final Project\main.asm</FILE><LINE>389</LINE></guesswrong>
+  <End><FILE>C:\Users\hanyu\Desktop\9032 Final Project\9032 Final Project\Final Project\main.asm</FILE><LINE>384</LINE></End>
+  <sleep_500ms><FILE>C:\Users\hanyu\Desktop\9032 Final Project\9032 Final Project\Final Project\main.asm</FILE><LINE>533</LINE></sleep_500ms>
+  <zero><FILE>C:\Users\hanyu\Desktop\9032 Final Project\9032 Final Project\Final Project\main.asm</FILE><LINE>417</LINE></zero>
+  <result1><FILE>C:\Users\hanyu\Desktop\9032 Final Project\9032 Final Project\Final Project\main.asm</FILE><LINE>423</LINE></result1>
+  <result2><FILE>C:\Users\hanyu\Desktop\9032 Final Project\9032 Final Project\Final Project\main.asm</FILE><LINE>430</LINE></result2>
+  <result3><FILE>C:\Users\hanyu\Desktop\9032 Final Project\9032 Final Project\Final Project\main.asm</FILE><LINE>437</LINE></result3>
+  <Over><FILE>C:\Users\hanyu\Desktop\9032 Final Project\9032 Final Project\Final Project\main.asm</FILE><LINE>444</LINE></Over>
+  <sleep_1ms><FILE>C:\Users\hanyu\Desktop\9032 Final Project\9032 Final Project\Final Project\main.asm</FILE><LINE>498</LINE></sleep_1ms>
+  <lcd_wait_loop><FILE>C:\Users\hanyu\Desktop\9032 Final Project\9032 Final Project\Final Project\main.asm</FILE><LINE>477</LINE></lcd_wait_loop>
+  <delayloop_1ms><FILE>C:\Users\hanyu\Desktop\9032 Final Project\9032 Final Project\Final Project\main.asm</FILE><LINE>503</LINE></delayloop_1ms>
+  <sleep_5ms><FILE>C:\Users\hanyu\Desktop\9032 Final Project\9032 Final Project\Final Project\main.asm</FILE><LINE>510</LINE></sleep_5ms>
+  <sleep_25ms><FILE>C:\Users\hanyu\Desktop\9032 Final Project\9032 Final Project\Final Project\main.asm</FILE><LINE>518</LINE></sleep_25ms>
+  <sleep_100ms><FILE>C:\Users\hanyu\Desktop\9032 Final Project\9032 Final Project\Final Project\main.asm</FILE><LINE>526</LINE></sleep_100ms>
+ </LABELS>
+</ASSEMBLER_INFO>

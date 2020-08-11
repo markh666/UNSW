@@ -1,0 +1,125 @@
+Quiz#1 Answers:
+
+1. In (i) every project must have some researchers and we know exactly how much time each researcher spends on each project they work on. In (ii) every project has some researchers working on it, but we only know the total time for the project.
+
+2. Some Flurfs own one Boggle; every Boggle is owned by one or more Flurfs.
+
+3. The one that has a thick line (many to many) between Manager entity and Manages relationship. 
+
+4. 	create table Person (
+		taxFileNum    integer primary key,
+		name          varchar(100),
+		address       varchar(200)
+	);
+	create table Car (
+		licencePlate  char(8) primary key,
+		make          varchar(50),
+		model         varchar(50),
+		owner         integer not null references Person(taxFileNum)
+	);
+
+5. Binary
+
+
+Quiz#2 Answers:
+
+1. The table:
+
+       b
+   --------
+    fourth
+    second
+
+2. 12
+
+3. select R.a, R.b, R.c, S.d from R join S on (R.b=S.b);
+
+4. The table
+
+    a |   b    |  c   |   b   | d
+   ---+--------+------+-------+---
+    1 | first  | 3.14 | first | 2
+    2 | second | 2.18 |       |
+    3 | third  | 1.50 | third | 3
+    4 | fourth | 3.14 |       |
+
+5. SELECT * FROM Lecturers WHERE FirstName = 'Rachid'
+
+
+Quiz#3 Answers:
+
+1.  student | score 
+   ---------+-------
+    james   | 51.67
+    john    | 82.50
+    peter   | 42.50
+   (3 rows)
+
+2. 	select student, avg(mark)::numeric(5,2) as score
+	from   enrolments
+	group  by student
+	order  by student;
+
+3. 85
+
+4. 	create function insertTrigger() returns trigger
+	as $$
+	begin
+		update Classes set nEnrolments = nEnrolments + 1 where  classID = new.classID;
+	end;
+	$$ language plpgsql;
+	create trigger classEnrolmentInsertTrigger
+	after insert on ClassEnrolments
+	execute procedure insertTrigger();
+
+5. select dept_id, count(name) from employees;
+
+
+Quiz#4 Answers:
+
+1. All of the other answers are correct translations
+
+2. ABD, AC, BG, DEF
+
+Detailed solution:
+
+R=ABCDEFG
+F= A->c, D->EF, B->G
+
+key? ABD+ = ABCDEFG meaning ABD is a key
+
+Is R in BCNF? No since A->C violates the rule
+
+R1= ABDEFG
+R2= AC  <-- this is in BCNF
+
+R1=ABDEFG
+F1= D->EF, B->G  key is ABD
+R1 is not in BCNF since D->EF violates the rule
+
+R11= ABDG
+R12 = DEF
+
+FDs for R12 is only F12= D->EF 
+D is a key for R12  
+R12 satisfies the rule so R12=DEF is in BCNF
+
+FDs for R11 is only F11= B->G
+key for R12 is ABD
+B->g violates the rule
+
+R112= ABD
+R112= BG <--- BCNF since only two attributes
+
+No FDs for R112=ABD meaning it is in BCNF
+
+Conclusion:
+AC, DEF, BG, ABD is a BCNF partitioning of the original set of attributes.
+
+
+3. ABCD (already in 3NF)
+
+4. Min = r
+   Max = r + min(s,t)
+
+5. No

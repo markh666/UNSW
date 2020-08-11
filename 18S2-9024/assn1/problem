@@ -1,0 +1,25 @@
+永远把pass放在return value的后边
+delete根据pass的地址来进行删除
+
+set之后previous就不动了
+delete之后的指针要放对
+边界问题，走到头了要返回null
+
+默认current value的指针在真实值的后边
+
+现在可以实现add， delete， hasNext, hasPrevious的功能
+previous, findPrevious和next, findNext要设置好边界，防止到了head或者tail仍继续走，导致segmentation fault
+set研究下是哪里的问题，为什么无法set
+reset功能怎样实现？算法待考虑！
+
+1. reset功能我目前还没写对：要求是
+reset之后光标到第一个数字前边，如果后边是add指令，add的数值为head；
+如果后边是next指令返回第一个值；如果是previous指令返回NULL；
+
+2. previous, next功能的边界问题
+如果目前已经是最后一个值了，那输入next返回null；
+如果目前是第一个值，那输入previous返回null；
+
+3. findNext和findPrevious
+同2，到了边界要返回NULL；
+并且如果

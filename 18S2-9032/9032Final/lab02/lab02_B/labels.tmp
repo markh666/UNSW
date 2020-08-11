@@ -1,0 +1,30 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.1.42</VERSION>
+ <DEVICE>ATmega2560</DEVICE>
+ <WORKING_DIR>C:\Users\Evan\Desktop\COMP2121\lab02\lab02_B</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:\Program Files\Atmel\AVR Tools\AvrAssembler2\Appnotes</DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\Evan\Desktop\COMP2121\lab02\lab02_B\lab02_B.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:\Program Files\Atmel\AVR Tools\AvrAssembler2\Appnotes\m2560def.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\Evan\Desktop\COMP2121\lab02\lab02_B\lab02_B.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>C:\Users\Evan\Desktop\COMP2121\lab02\lab02_B\lab02_B.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>C:\Users\Evan\Desktop\COMP2121\lab02\lab02_B\lab02_B.map</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <main><FILE>C:\Users\Evan\Desktop\COMP2121\lab02\lab02_B\lab02_B.asm</FILE><LINE>33</LINE></main>
+  <end><FILE>C:\Users\Evan\Desktop\COMP2121\lab02\lab02_B\lab02_B.asm</FILE><LINE>52</LINE></end>
+  <init><FILE>C:\Users\Evan\Desktop\COMP2121\lab02\lab02_B\lab02_B.asm</FILE><LINE>39</LINE></init>
+  <L3><FILE>C:\Users\Evan\Desktop\COMP2121\lab02\lab02_B\lab02_B.asm</FILE><LINE>64</LINE></L3>
+  <findLargest><FILE>C:\Users\Evan\Desktop\COMP2121\lab02\lab02_B\lab02_B.asm</FILE><LINE>54</LINE></findLargest>
+  <isLonger><FILE>C:\Users\Evan\Desktop\COMP2121\lab02\lab02_B\lab02_B.asm</FILE><LINE>76</LINE></isLonger>
+  <L5><FILE>C:\Users\Evan\Desktop\COMP2121\lab02\lab02_B\lab02_B.asm</FILE><LINE>85</LINE></L5>
+ </LABELS>
+</ASSEMBLER_INFO>
